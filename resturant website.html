@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KAAFI COFFE AND RESTURANT</title>
+    <link rel="icon" type="x-icon" href="kaafi resturant.jpeg" />
+    <script src="script.js"></script>
+    <style>
+           body
+           {
+        font-family: Arial, Helvetica,sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header, nav, section, footer {
+        padding: 20px;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline;
+        margin-right: 10px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      nav a:hover {
+        color: #777;
+      }
+
+      section {
+        margin-bottom: 20px;
+      }
+
+      form label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      form input[type="text"],
+      form input[type="date"],
+      form input[type="time"],
+      form input[type="number"],
+      form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+
+      form input[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        border: none;}
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Our Restaurant Dear Customers</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservation">Reservation</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="menu">
+      <h2>Our Menu</h2>
+      <ul>
+        <li>Pizza - $10</li>
+        <li>Burger - $8</li>
+        <li>Pasta - $12</li>
+        <!-- Add more menu items here -->
+      </ul>
+    </section>
+
+    <section id="reservation">
+      <h2>Make a Reservation</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required />
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: abdiwasamohamed@gmail.com</p>
+      <p>Phone: +251915741265</p>
+      <p>Address: KABRIDAHAR,ETHIOPIA</p>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 KAAFI COFFE AND RESTURANT. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
